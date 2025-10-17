@@ -65,7 +65,7 @@ Rules:
 
     content = content.strip()
     content = re.sub(r'```(?:json)?', '', content)
-    #no
+    #yes
     # Extract JSON array
     match = re.search(r'\[\s*{.*}\s*\]', content, re.DOTALL)
     if not match:
